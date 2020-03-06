@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Preferencias">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="activamusica"
+            android:title="Música" />
+        <ListPreference
+            android:key="numArticulos"
+            android:title="Elegir Turno"
+            android:defaultValue="Jugador"
+            android:entries="@array/elige_turno"
+            android:entryValues="@array/elige_turno" />
+    </PreferenceCategory>
+</PreferenceScreen>

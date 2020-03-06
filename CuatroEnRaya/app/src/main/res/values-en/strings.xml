@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conecta4">CONNECT 4</string>
+    <string name="nuevaApp">New App for Android</string>
+    <string name="toastGanador1">¡4 tokens lined up by player</string>
+    <string name="toastGanador2">!</string>
+    <string name="resultadoEmpate">¡Draw!</string>
+    <string name="columnaLlena">Full Column</string>
+    <string name="partidaGanadaMsg">¡Win!</string>
+    <string name="jugarOtraVez">¿Do you wanna play again?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="empateMsg">Draw :(</string>
+    <string name="jugarOtraVezMsg">¿Do you wanna play again?</string>
+</resources>

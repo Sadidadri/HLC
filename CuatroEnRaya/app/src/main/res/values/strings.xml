@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CuatroEnRaya</string>
+    <string name="aboutText">About us</string>
+    <string name="sendMessageText">Send a Message</string>
+    <string name="preferencesText">Preferences</string>
+    <string name="title_activity_preferences">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+    <string name="conecta4">CONECTA 4</string>
+    <string name="nuevaApp">Nueva aplicación Android</string>
+    <string name="toastGanador1">¡4 fichas alineadas por el jugador</string>
+    <string name="toastGanador2">!</string>
+    <string name="resultadoEmpate">¡Partida empatada!</string>
+    <string name="columnaLlena">Columna Llena</string>
+    <string name="partidaGanadaMsg">Partida Ganada!!!</string>
+    <string name="jugarOtraVez">¿Quieres jugar otra vez?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="empateMsg">Partida Empatada :(</string>
+    <string name="jugarOtraVezMsg">¿Quieres jugar otra vez?</string>
+</resources>
