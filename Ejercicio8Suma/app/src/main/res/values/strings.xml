@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejercicio8Suma</string>
+    <string name="valor_1">Valor 1:</string>
+    <string name="valor_2">Valor 2:</string>
+    <string name="edit_1">Valor 1</string>
+    <string name="edit_2">Valor 2</string>
+    <string name="resultado">Resultado</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="dividir">Dividir</string>
+</resources>

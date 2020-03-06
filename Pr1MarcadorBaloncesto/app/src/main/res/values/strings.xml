@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pr1MarcadorBaloncesto</string>
+    <string name="local">LOCAL</string>
+    <string name="visitante">VISITANTE</string>
+    <string name="puntLocal">00</string>
+    <string name="puntVisitante">00</string>
+    <string name="reiniciar_partido">Reiniciar Partido</string>
+</resources>

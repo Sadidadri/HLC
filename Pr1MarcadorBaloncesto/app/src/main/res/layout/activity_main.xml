@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondobaloncesto"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/local"
+        android:textColor="#FD0030"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/visitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/visitante"
+        android:textColor="#FD0030"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/puntosLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/puntLocal"
+        android:textColor="#FD0030"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/local" />
+
+    <TextView
+        android:id="@+id/puntosVisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="155dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/puntVisitante"
+        android:textColor="#FD0030"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visitante" />
+
+    <Button
+        android:id="@+id/localminus1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/balonmenos1"
+        android:onClick="restaUnoLocal"
+        app:layout_constraintEnd_toStartOf="@+id/local"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/localplus1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/balonmas1"
+        android:onClick="sumaUnoLocal"
+        app:layout_constraintEnd_toStartOf="@+id/localplus2"
+        app:layout_constraintTop_toBottomOf="@+id/puntosLocal" />
+
+    <Button
+        android:id="@+id/localplus2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/balonmas2"
+        android:onClick="sumaDosLocal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntosLocal" />
+
+    <Button
+        android:id="@+id/localplus3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/balonmas3"
+        android:onClick="sumaTresLocal"
+        app:layout_constraintStart_toEndOf="@+id/localplus2"
+        app:layout_constraintTop_toBottomOf="@+id/puntosLocal" />
+
+    <Button
+        android:id="@+id/visitanteminus1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/balonmenos1"
+        android:onClick="restaUnoVisitante"
+        app:layout_constraintStart_toEndOf="@+id/visitante"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/visitanteplus1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/balonmas1"
+        android:onClick="sumaUnoVisitante"
+        app:layout_constraintStart_toEndOf="@+id/visitanteplus2"
+        app:layout_constraintTop_toBottomOf="@+id/puntosVisitante" />
+
+    <Button
+        android:id="@+id/visitanteplus2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/balonmas2"
+        android:onClick="sumaDosVisitante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntosVisitante" />
+
+    <Button
+        android:id="@+id/visitanteplus3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/balonmas3"
+        android:onClick="sumaTresVisitante"
+        app:layout_constraintEnd_toStartOf="@+id/visitanteplus2"
+        app:layout_constraintTop_toBottomOf="@+id/puntosVisitante" />
+
+    <Button
+        android:id="@+id/reiniciopartido"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/botonredondo"
+        android:onClick="reinicioPartido"
+        android:text="@string/reiniciar_partido"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

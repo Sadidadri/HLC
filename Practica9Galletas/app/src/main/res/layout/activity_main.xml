@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A460AF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagenPeluche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/before_cookie" />
+
+    <TextView
+        android:id="@+id/textoComida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_m_hungry"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/comerGalleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="comerGalleta"
+        android:text="@string/eat_cookie" />
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearLayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_monedaEntrante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrada:"
+            android:textSize="20dp"
+            tools:layout__conversion_absoluteWidth="66dp"
+            tools:layout_conversion_absoluteHeightabsoluteX="5dp"
+            tools:layout_editor_="19dp"
+            tools:layouteditor_absoluteY="311dp" />
+
+        <EditText
+            android:id="@+id/inputCantidad"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Cantidad"
+            tools:layout_conversion_absolueditor_absoluteX="70dp"
+            tools:layout_conversion_absoluteWidth="227dp"
+            tools:layout_editor_absoluteY="297dp"
+            tools:layout_teHeight="45dp" />
+
+        <Spinner
+            android:id="@+id/divisaEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/monedas"
+            tools:layout_conversion_absoluteHeightsoluteX="297dp"
+            tools:layout_conversion_absoluteWidth="109dp"
+            tools:layout_editor_ab="24dp"
+            tools:layout_editor_absoluteY="308dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_monedaSaliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salida:"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeightabsoluteX="5dp"
+            tools:layout_conversion_absoluteWidth="110dp"
+            tools:layout_editor_="19dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <TextView
+            android:id="@+id/inputCantidadSaliente"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Cantidad"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            tools:layout_conversion_absoluteHeightsoluteX="115dp"
+            tools:layout_conversion_absoluteWidth="126dp"
+            tools:layout_editor_ab="19dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+        <Spinner
+            android:id="@+id/divisaSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:entries="@array/monedas"
+            tools:layout_conversion_absoluteHeightsoluteX="242dp"
+            tools:layout_conversion_absoluteWidth="165dp"
+            tools:layout_editor_ab="24dp"
+            tools:layout_editor_absoluteY="352dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/botonCalcular"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:onClick="pulsaBoton"
+        android:text="Calcular"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="402dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="386dp" />
+</LinearLayout>

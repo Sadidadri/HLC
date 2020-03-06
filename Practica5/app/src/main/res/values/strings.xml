@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica5</string>
+    <string name="apellido">Apellido(*)</string>
+    <string name="mensaje">Mensaje:</string>
+    <string name="nombre">Nombre(*)</string>
+    <string name="suscribirse_por_e_mail">Suscribirse por e-mail</string>
+    <string name="elpais_es">elpais.es</string>
+    <string name="e_mail">e-mail(*)</string>
+</resources>

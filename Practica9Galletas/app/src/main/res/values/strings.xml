@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica9Galletas</string>
+    <string name="i_m_so_hungry"><![CDATA[I\'m so hungry! >:(]]></string>
+    <string name="todo">TODO</string>
+    <string name="eat_cookie">EAT COOKIE</string>
+    <string name="i_m_hungry">I\'m Hungry!</string>
+</resources>

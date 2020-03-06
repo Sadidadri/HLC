@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:alignmentMode="alignBounds"
+    android:background="#8C8D92"
+    android:columnCount="4"
+    android:rowCount="6">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="35dp"
+        android:layout_row="0"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="end"
+        android:textSize="36sp" />
+
+    <Button
+
+        android:id="@+id/siete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaSiete"
+        android:text="@string/siete" />
+
+    <Button
+
+        android:id="@+id/ocho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaOcho"
+        android:text="@string/ocho" />
+
+    <Button
+
+        android:id="@+id/nueve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaNueve"
+        android:text="@string/nueve" />
+
+    <Button
+
+        android:id="@+id/dividido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaDividido"
+        android:text="@string/dividido" />
+
+    <Button
+
+        android:id="@+id/cuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaCuatro"
+        android:text="@string/cuatro" />
+
+    <Button
+
+        android:id="@+id/cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaCinco"
+        android:text="@string/cinco" />
+
+    <Button
+
+        android:id="@+id/seis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaSeis"
+        android:text="@string/seis" />
+
+    <Button
+
+        android:id="@+id/por"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaPor"
+        android:text="@string/por" />
+
+    <Button
+
+        android:id="@+id/uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaUno"
+        android:text="@string/uno" />
+
+    <Button
+
+        android:id="@+id/dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaDos"
+        android:text="@string/dos" />
+
+    <Button
+
+        android:id="@+id/tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaTres"
+        android:text="@string/tres" />
+
+    <Button
+
+        android:id="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_rowSpan="2"
+        android:onClick="pulsaMas"
+        android:text="@string/mas" />
+
+    <Button
+
+        android:id="@+id/masmenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaMasOMenos"
+        android:text="@string/masmenos" />
+
+    <Button
+
+        android:id="@+id/punto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaPunto"
+        android:text="@string/punto" />
+
+    <Button
+
+        android:id="@+id/cero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaCero"
+        android:text="@string/cero" />
+
+    <Button
+
+        android:id="@+id/clear"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:onClick="pulsaClear"
+        android:text="@string/clear" />
+
+    <Button
+
+        android:id="@+id/igual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaIgual"
+        android:text="@string/igual" />
+
+    <Button
+
+        android:id="@+id/menos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pulsaMenos"
+        android:text="@string/menos" />
+
+</GridLayout>

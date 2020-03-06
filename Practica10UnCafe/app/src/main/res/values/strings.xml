@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica10UnCafe</string>
+    <string name="nombre">Nombre</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="crema">Crema</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="cantidad">CANTIDAD</string>
+    <string name="menos">-</string>
+    <string name="cantidadNumerica">0</string>
+    <string name="mas">+</string>
+    <string name="order">ORDER</string>
+</resources>

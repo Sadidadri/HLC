@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="94dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Añadir un elemento:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/nombre_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nombre_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="43dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Cancelar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nombre_input"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/cancelar"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Aceptar"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

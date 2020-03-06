@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejercicio7</string>
+    <string name="hola_mundo">HOLA MUNDO</string>
+    <string name="boton">Boton</string>
+    <string name="boton_2">Boton 2</string>
+</resources>

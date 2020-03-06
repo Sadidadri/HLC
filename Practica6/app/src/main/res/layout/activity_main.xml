@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:columnCount="2"
+    android:orientation="horizontal">
+
+    <!-- Elementos: -->
+
+    <TextView
+        android:id="@+id/celda0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cell_0" />
+
+    <TextView
+        android:id="@+id/celda1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cell_1" />
+
+    <TextView
+        android:id="@+id/celda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/cell_2" />
+
+    <TextView
+        android:id="@+id/celda3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/cell_3" />
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_rowSpan="1"
+        android:text="@string/ok" />
+
+
+</GridLayout>
